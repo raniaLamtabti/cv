@@ -1,18 +1,11 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/CvResult">CvResutl</router-link>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> 
+    </div>
+    <router-view />
   </div>
-  <router-view/>
 </template>
-
-<script>
-
-export default ({
-  name: 'nav',
-})
-</script>
-
 
 <style>
 #app {
